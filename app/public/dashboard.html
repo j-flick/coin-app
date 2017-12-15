@@ -181,7 +181,7 @@
                         <div class="card-body">
                             <form id="add-coin-form" class="form-inline">
                                 <div class="form-group col-3">
-                                    <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelectPref">
+                                    <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="coin-name">
                                         <option selected>Select Coin</option>
                                         <option value="1">BTC</option>
                                         <option value="2">ETH</option>
@@ -204,18 +204,18 @@
                     <!-- Example DataTables Card-->
                     <div class="card mb-3">
                         <div class="card-header">
-                            <i class="fa fa-table"></i> Cryptocurrency Market Capitalizations</div>
+                            <i class="fa fa-table"></i> Your Holdings</div>
                             <div class="card-body">
-                                <div class="table-responsive">
+                                <div class="table-responsive" id="coin-container">
                                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                         <thead>
                                             <tr>
-                                                <th>Name</th>
-                                                <th>Market Cap</th>
-                                                <th>Price</th>
-                                                <th>Volume (24-hours)</th>
-                                                <th>Circulating Supply</th>
-                                                <th>Change (24-hours)</th>
+                                                <th>Name (CCCY)</th>
+                                                <th>Amount Owned</th>
+                                                <th>Current Price</th>
+                                                <th>Your Total Value</th>
+                                                <th>% Change (24 Hours)</th>
+                                                <th>% Change (1 Hour)</th>
                                             </tr>
                                         </thead>
                                         <tbody>

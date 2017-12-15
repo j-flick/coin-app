@@ -2,7 +2,7 @@ $(document).ready(function() {
   // Getting references to the name input and author container, as well as the table body
   var nameInput = $("#coin-name");
   var coinList = $("tbody");
-  var coinContainer = $(".coin-container");
+  var coinContainer = $("#coin-container");
   // Adding event listeners to the form to create a new object, and the button to delete
   // an Author
   $(document).on("submit", "#add-coin-form", handleCoinFormSubmit);

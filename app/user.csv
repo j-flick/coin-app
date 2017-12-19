@@ -1,0 +1,4 @@
+id,username,email,password,createdAt,updatedAt
+1,lcasey,lcasey@fandm.edu,$2a$10$1WhJ4UOQwC2SGVE.u7IbleDBCPymCtoWObCPiLsh8lnay9rAhCw5i,"2017-12-18 00:56:06", "2017-12-18 00:56:06"
+2,jflick,jflick@gmail.com,$2a$10$1WhJ4UOQwC2SGVE.u7IbleDBCPymCtoWObCPiLsh8lnay9rAhCw5i,"2017-12-18 00:56:06", "2017-12-18 00:56:06"
+3,allie,allie@mail.com,$2a$10$1WhJ4UOQwC2SGVE.u7IbleDBCPymCtoWObCPiLsh8lnay9rAhCw5i,"2017-12-18 00:56:06", "2017-12-18 00:56:06"

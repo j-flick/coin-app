@@ -1,0 +1,36 @@
+{
+  "name": "coin-app",
+  "version": "1.0.0",
+  "description": "crypto currency tracking app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "./node_modules/.bin/nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "justin flick, allie jaccard, laura casey",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.1",
+    "nodemon": "^1.13.3",
+    "sequelize": "^4.28.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.13.3"
+  }
+}
